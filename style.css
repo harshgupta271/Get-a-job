@@ -1,0 +1,20 @@
+/*-----HOME PAGE-----*/
+.container{
+    margin: 0px;
+    padding: 0px;
+}
+.nav-link{
+    color:white;
+}
+.container {
+    border: solid;
+    border-radius: 3px;
+    border-width: 0.5px;
+   }
+   a{
+    text-decoration: none;
+    color: #808089;
+   }
+   .navbar-brand{
+    height: 60px;
+   }
