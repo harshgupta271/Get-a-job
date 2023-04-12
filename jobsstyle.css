@@ -1,15 +1,12 @@
-/*-----HOME PAGE-----*/
-.container{
-    margin: 0px;
-    padding: 0px;
-}
-.nav-link{
-    color:white;
+body{
+    margin:40px;
+    padding:10px;
 }
 .container {
     border: solid;
     border-radius: 3px;
     border-width: 0.5px;
+    background-color: #bebabe;
    }
    a{
     text-decoration: none;
@@ -18,3 +15,6 @@
    .navbar-brand{
     height: 60px;
    }
+.nav-link{
+    color: white;
+}
