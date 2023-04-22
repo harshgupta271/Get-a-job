@@ -10,7 +10,6 @@ body{
    }
    a{
     text-decoration: none;
-    color: #808089;
    }
    .navbar-brand{
     height: 60px;
@@ -22,10 +21,10 @@ body{
     display: none !important;
 }
 .signin{
-    max-width: 400px;
+    max-width: 38%;
     position: absolute;
-    top: 300px;
-    left: 33%;
+    top: 400px;
+    left: 31%;
 }
 .opaque{
     opacity: 0.6;
