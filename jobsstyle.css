@@ -4,16 +4,16 @@ body{
 }
 .container{
     border: solid;
-    border-radius: 3px;
+    border-radius: 8px;
     border-width: 0.5px;
-    background-color: #bebabe;
-   }
-   a{
+    background-color: rgb(241, 239, 235);
+}
+a{
     text-decoration: none;
-   }
-   .navbar-brand{
+}
+.navbar-brand{
     height: 60px;
-   }
+}
 .nav-link{
     color: white;
 }
@@ -21,10 +21,10 @@ body{
     display: none !important;
 }
 .signin{
-    max-width: 38%;
+    max-width:50%;
     position: absolute;
-    top: 300px;
-    left: 31%;
+    top: 260px;
+    left: 25%;
 }
 .opaque{
     opacity: 0.6;
@@ -32,4 +32,9 @@ body{
 .content{
     display:none;
 }
-
+@media(max-width:400px){
+    .signin{
+        max-width: 90%;
+        left:5%
+    }
+}
