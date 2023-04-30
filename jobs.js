@@ -20,34 +20,60 @@ search.addEventListener('keyup',()=>{
 const pune= document.getElementById("Pune");
 pune.onclick= function(){
     filter("pune")
+    c();
 };
 //chennai
 const chennai= document.getElementById("Chennai");
 chennai.onclick= function(){
-    filter("Chennai")
+    filter("chennai")
+    c();
 };
 //hyderabad
 const hyderabad= document.getElementById("Hyderabad");
 hyderabad.onclick= function(){
     filter("hyderabad")
+    c();
 };
 //new delhi
 const delhi= document.getElementById("Delhi");
 delhi.onclick= function(){
     filter("delhi")
+    c();
 };
 //noida
 const noida= document.getElementById("Noida");
 noida.onclick= function(){
     filter("noida")
+    c();
 };
 //signup
 const close=document.getElementById('close');
 login.onclick=function(){
 signin.classList.remove('content');
 grid.classList.add('opaque');
+c();
 };
 close.onclick=function(){
     signin.classList.add('content');
     grid.classList.remove('opaque');
+
+}
+//close navbar
+function c(){
+    const z= document.getElementById('hello');
+    const d=document.getElementById('navbarSupportedContent');
+    z.classList.add('collapsed')
+    z.setAttribute('aria-expanded','false')
+    d.classList.remove('show')
+};
+//onclick
+const h=document.getElementById('end');
+document.addEventListener('click',(e)=>{
+    if(!h.contains(e.target)){
+        c();
+    }
+    });
+   //onscroll 
+document.onscroll=function(){
+    c();
 };
