@@ -9,27 +9,28 @@
 </head>
 <body>
  <!--Navigation section-->
+ <section>
  <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
-  <div class="container-fluid">
+  <div class="container-fluid" id="end">
     <img src="logo.jpg" alt="getajob" class="navbar-brand">
-    <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"  aria-expanded="false" aria-label="Toggle navigation" id="hello">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" class="text-light" href="index.html"><i class="fa-solid fa-house home "></i>
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+        <li class="nav-item" >
+          <a class="nav-link" aria-current="page"  class="text-light" href="index.html"><i class="fa-solid fa-house home "></i>
             Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" class="text-light" href="it.html">IT-Jobs</a>
+          <a class="nav-link" class="text-light" href="it.html">Non-Tech-Jobs</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" class="text-light" href="tech.html">Tech-Jobs</a>
+          <a class="nav-link"  class="text-light" href="tech.html">Tech-Jobs</a>
         </li>
       </ul>
       <div class="dropdown my-3">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="filter-dropdown" data-bs-target="dropdown" data-bs-toggle="dropdown">Filter by location</button>
+        <button class="btn btn-secondary dropdown-toggle" type="button"aria-current="page" id="filter-dropdown" data-bs-target="dropdown" data-bs-toggle="dropdown">Filter by location</button>
         <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="filter-dropdown">
           <li><button class=" btn dropdown-item" type="submit" id="Pune">Pune</button></li>
           <li><button class=" btn dropdown-item" type="button" id="Chennai">Chennai</button></li>
@@ -38,156 +39,152 @@
           <li><button class=" btn dropdown-item" type="button" id="Noida">Noida</button></li>
         </ul>
       </div>
-
+    
       <form class="d-flex search">
         <i class="nav-link fa-solid fa-magnifying-glass m-3"></i>
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
       </form>
-      <button class="btn btn-outline-success btn-secondary text-black my-3" id="Signin" type="submit">Sign-in</button>
-
-          </div>
+      <button class="btn btn-outline-success my-3 nav-item bg-success text-light" id="Signin" type="submit">Sign-in</button>
+    </div>
   </div>
-</nav>
-</section >
+ </nav>
+<div>
+</section>
 <section><!-- section-->
 <div class="row">
- <div class="col-sm-4 mt-5">
+ <div class="col-lg-4 col-md-6  mt-5">
   <div class="container">
-    <h1 class="text-center">cognizant</h1>
-    job role:<br><br>
+    <h1 class="text-center mt-2">Cognizant</h1>
+    Job role:<br><br>
  
-    package:<br><br>
+    Package:<br><br>
  
-    qualification:<br><br>
+    Qualification:<br><br>
 
-    <p>job-location: Pune</p>
-    
+    <p>Job-location: Pune</p>
+    <div class="d-flex justify-content-end m-2">
+       <button class="btn btn-primary mb-2 apply bg-primary"><a class="text-light" href="#">Apply now</a></button>
+    </div>
+  </div>
+  </div>
+  <div class="col-lg-4 col-md-6 mt-5">
+  <div class="container">
+    <h1 class="text-center mt-2">HCL</h1>
+    Job role:<br><br>
  
+    Package:<br><br>
+ 
+    Qualification:<br><br>
+
+    <p>Job-location: Chennai</p>
+    <div class="d-flex justify-content-end m-2">
        <button class="btn btn-primary mb-2 apply bg-primary apply"><a class="text-light" href="#">Apply now</a></button>
-
- 
+    </div>
   </div>
   </div>
-  <div class="col-sm-4 mt-5">
+  <div class="col-lg-4 col-md-6 mt-5">
   <div class="container">
-    <h1 class="text-center">HCL</h1>
-    job role:<br><br>
+    <h1 class="text-center mt-2">IBM</h1>
+    Job role:<br><br>
  
-    package:<br><br>
+    Package:<br><br>
  
-    qualification:<br><br>
+    Qualification:<br><br>
 
-    <p>job-location: ballabhgarh</p>
- 
+    <p>Job-location: Pune</p>
+    <div class="d-flex justify-content-end m-2">
        <button class="btn btn-primary mb-2 apply bg-primary apply"><a class="text-light" href="#">Apply now</a></button>
-
- 
+    </div>
   </div>
   </div>
-  <div class="col-sm-4 mt-5">
+  <div class="col-lg-4 col-md-6 mt-5">
   <div class="container">
-    <h1 class="text-center">IBM</h1>
-    job role:<br><br>
+    <h1 class="text-center mt-2">TCS</h1>
+    Job role:<br><br>
  
-    package:<br><br>
+    Package:<br><br>
  
-    qualification:<br><br>
+    Qualification:<br><br>
 
-    <p>job-location: Pune</p>
- 
-       <button class="btn btn-primary mb-2 apply bg-primary apply"><a class="text-light" href="#">Apply now</a></button>
-  </div>
-  </div>
-  <div class="col-sm-4 mt-5">
-  <div class="container">
-    <h1 class="text-center">TCS</h1>
-    job role:<br><br>
- 
-    package:<br><br>
- 
-    qualification:<br><br>
-
-    <p>job-location: goa</p>
- 
+    <p>Job-location: Goa</p>
+    <div class="d-flex justify-content-end m-2">
        <button class="btn btn-primary mb-2 apply bg-primary apply"><a class="text-light" href="#">Apply now</a></button>
   </div>
   </div>
-  <div class="col-sm-4 mt-5">
+  </div>
+  <div class="col-lg-4 col-md-6 mt-5">
   <div class="container">
-    <h1 class="text-center">Amazon</h1>
-    job role:<br><br>
+    <h1 class="text-center mt-2">Amazon</h1>
+    Job role:<br><br>
  
-    package:<br><br>
+    Package:<br><br>
  
-    qualification:<br><br>
+    Qualification:<br><br>
 
-    <p>job-location: Noida</p>
- 
+    <p>Job-location: Noida</p>
+    <div class="d-flex justify-content-end m-2">
        <button class="btn btn-primary mb-2 apply bg-primary apply"><a class="text-light" href="#">Apply now</a></button>
-
- 
+    </div>
   </div>
   </div>
-  <div class="col-sm-4 mt-5">
+  <div class="col-lg-4 col-md-6 mt-5">
   <div class="container">
-    <h1 class="text-center">Microsoft</h1>
-    job role:<br><br>
+    <h1 class="text-center mt-2">Microsoft</h1>
+    Job role:<br><br>
  
-    package:<br><br>
+    Package:<br><br>
  
-    qualification:<br><br>
+    Qualification:<br><br>
 
-    <p>job-location: delhi</p>
- 
+    <p>Job-location: Delhi</p>
+    <div class="d-flex justify-content-end m-2">
        <button class="btn btn-primary mb-2 apply bg-primary apply"><a class="text-light" href="#">Apply now</a></button>
-
- 
+    </div>
   </div>
   </div>
-  <div class="col-sm-4 mt-5">
+  <div class="col-lg-4 col-md-6 mt-5">
   <div class="container">
-    <h1 class="text-center">Google</h1>
-    job role:<br><br>
+    <h1 class="text-center mt-2">Google</h1>
+    Job role:<br><br>
  
-    package:<br><br>
+    Package:<br><br>
  
-    qualification:<br><br>
+    Qualification:<br><br>
 
-    <p>job-location: lucknow</p>
- 
+    <p>Job-location: Lucknow</p>
+    <div class="d-flex justify-content-end m-2">
        <button class="btn btn-primary mb-2 apply bg-primary apply"><a class="text-light" href="#">Apply now</a></button>
-
- 
+    </div>
   </div>
   </div>
-  <div class="col-sm-4 mt-5">
+  <div class="col-lg-4 col-md-6 mt-5">
   <div class="container">
-    <h1 class="text-center">Gmail</h1>
-    job role:<br><br>
+    <h1 class="text-center mt-2">Gmail</h1>
+    Job role:<br><br>
  
-    package:<br><br>
+    Package:<br><br>
  
-    qualification:<br><br>
+    Qualification:<br><br>
 
-    <p>job-location: Mumbai</p>
- 
-       <button class="btn btn-primary mb-2 apply bg-primary apply"><a class="text-light" href="#">Apply now</a></button>
-
- 
+    <p>Job-location: Mumbai</p>
+    <div class="d-flex justify-content-end m-2">
+     <button class="btn btn-primary mb-2 apply bg-primary apply"><a class="text-light" href="#">Apply now</a></button>
+    </div>
   </div>
   </div>
-  <div class="col-sm-4 mt-5">
+  <div class="col-lg-4 col-md-6 mt-5">
     <div class="container">
-      <h1 class="text-center">linkedin</h1>
-      job role:<br><br>
+      <h1 class="text-center mt-2">Linkedin</h1>
+      Job role:<br><br>
    
-      package:<br><br>
+      Package:<br><br>
    
-      qualification:<br><br>
+      Qualification:<br><br>
 
-      <p>job-location: Hyderabad</p>
-   
+      <p>Job-location: Hyderabad</p>
+      <div class="d-flex justify-content-end m-2">
     <button class="btn btn-primary mb-2 apply bg-primary apply"><a class="text-light" href="#">Apply now</a></button>
+    </div>
     </div>
     </div>
   </div>
@@ -212,13 +209,13 @@
     <section class="text-center">
     <div class="row">
     <div class="col-lg-6 col-sm-12 mb-4">
-        <div class="container">
+        <div class="container bg-success">
     <i class="fa-brands fa-whatsapp"></i>
     <a class="text-light" href="##">join our Whatsapp group for latest job updates</a>
     </div>
     </div>
-    <div class="col-lg-6 col sm-12">
-    <div class="container">
+    <div class="col-lg-6 col-sm-12">
+    <div class="container bg-primary">
     <i class="fa-brands fa-telegram"></i>
     <a class="text-light" href="##">join our Telegram group for latest job updates</a>
     </div>
